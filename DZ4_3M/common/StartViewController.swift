@@ -19,10 +19,10 @@ class StartViewController: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = .cyan
-        //        tableView.dataSource = self
-        //        tableView.register(UINib(nibName: "SecondTableViewCell", bundle: nil), forCellReuseIdentifier: cellID)
-        //        tableView.delegate = self
-        //        initData()
+               tableView.dataSource = self
+                tableView.register(UINib(nibName: "SecondTableViewCell", bundle: nil), forCellReuseIdentifier: cellID)
+               tableView.delegate = self
+                initData()
     }
     
     public func initData(){
@@ -91,12 +91,16 @@ extension StartViewController: UITableViewDataSource {
     
 extension StartViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        100
+        260
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let threeVC = ThirdViewController()
         self.navigationController?.pushViewController(threeVC, animated: true)
-        
+        threeVC.Imagethree = products[indexPath.row].image
+        threeVC.name1 = "\(products[indexPath.row].name)"
+        threeVC.name2 = "\(products[indexPath.row].item)"
+        threeVC.r = indexPath.row
+       // print(indexPath.row)
         
     }
 }

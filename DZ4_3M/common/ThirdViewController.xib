@@ -21,7 +21,7 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JGG-4m-vd0">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JGG-4m-vd0">
                     <rect key="frame" x="9" y="106" width="374" height="284"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="284" id="hjp-9b-P5O"/>
@@ -194,6 +194,9 @@
                             <color key="backgroundColor" systemColor="linkColor"/>
                         </backgroundConfiguration>
                     </buttonConfiguration>
+                    <connections>
+                        <action selector="buttonBuyThree:" destination="-1" eventType="touchUpInside" id="ou8-Cw-ivE"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vx7-EQ-4rh">
                     <rect key="frame" x="214" y="534" width="37" height="37"/>

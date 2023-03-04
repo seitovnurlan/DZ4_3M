@@ -9,86 +9,32 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="1112" id="KGk-i7-Jjw" customClass="SecondTableViewCell" customModule="DZ4_3M" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="447" height="1112"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="776" id="KGk-i7-Jjw" customClass="SecondTableViewCell" customModule="DZ4_3M" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="472" height="776"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="447" height="1112"/>
+                <rect key="frame" x="0.0" y="0.0" width="472" height="776"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="buH-8h-B44">
-                        <rect key="frame" x="11" y="49" width="399" height="266"/>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="buH-8h-B44">
+                        <rect key="frame" x="20" y="20" width="430" height="200"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="399" id="9y0-DW-JDt"/>
-                            <constraint firstAttribute="height" constant="266" id="nMz-hq-sgT"/>
+                            <constraint firstAttribute="width" constant="430" id="9y0-DW-JDt"/>
+                            <constraint firstAttribute="height" constant="200" id="nMz-hq-sgT"/>
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Furniture" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vj2-ly-fGS">
-                        <rect key="frame" x="17" y="316" width="117" height="24"/>
+                        <rect key="frame" x="26" y="221" width="180" height="24"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="117" id="QSq-G7-QNe"/>
+                            <constraint firstAttribute="width" constant="180" id="QSq-G7-QNe"/>
                             <constraint firstAttribute="height" constant="24" id="iYF-OT-k3y"/>
                         </constraints>
                         <fontDescription key="fontDescription" name="GeezaPro-Bold" family="Geeza Pro" pointSize="20"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iQ6-sh-RLa">
-                        <rect key="frame" x="11" y="382" width="399" height="266"/>
-                        <constraints>
-                            <constraint firstAttribute="width" constant="399" id="Yzk-NK-Afa"/>
-                            <constraint firstAttribute="height" constant="266" id="z80-CN-j0u"/>
-                        </constraints>
-                    </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kitchenware" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5HJ-io-dFw">
-                        <rect key="frame" x="17" y="649" width="141" height="24"/>
-                        <constraints>
-                            <constraint firstAttribute="height" constant="24" id="VA4-AR-Tbx"/>
-                            <constraint firstAttribute="width" constant="141" id="yZS-yC-Em1"/>
-                        </constraints>
-                        <fontDescription key="fontDescription" name="GeezaPro-Bold" family="Geeza Pro" pointSize="20"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="645 Items" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BnL-H4-azO">
-                        <rect key="frame" x="17" y="675" width="69" height="20"/>
-                        <constraints>
-                            <constraint firstAttribute="width" constant="69" id="VRd-fi-cae"/>
-                            <constraint firstAttribute="height" constant="20" id="iNj-wL-boL"/>
-                        </constraints>
-                        <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="15"/>
-                        <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <nil key="highlightedColor"/>
-                    </label>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vPR-10-OFX">
-                        <rect key="frame" x="11" y="719" width="399" height="266"/>
-                        <constraints>
-                            <constraint firstAttribute="height" constant="266" id="4ww-Ko-t8r"/>
-                            <constraint firstAttribute="width" constant="399" id="q7B-EA-25r"/>
-                        </constraints>
-                    </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reading Table" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kcy-P9-YZZ">
-                        <rect key="frame" x="17" y="986" width="141" height="24"/>
-                        <constraints>
-                            <constraint firstAttribute="width" constant="141" id="aLU-Bw-BeH"/>
-                            <constraint firstAttribute="height" constant="24" id="dg3-dF-5aH"/>
-                        </constraints>
-                        <fontDescription key="fontDescription" name="GeezaPro-Bold" family="Geeza Pro" pointSize="20"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inventory" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kWM-ZJ-ZJs">
-                        <rect key="frame" x="17" y="1012" width="69" height="20"/>
-                        <constraints>
-                            <constraint firstAttribute="width" constant="69" id="Ln8-ez-SUX"/>
-                            <constraint firstAttribute="height" constant="20" id="bYA-Dm-S5D"/>
-                        </constraints>
-                        <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="15"/>
-                        <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <nil key="highlightedColor"/>
-                    </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="785 Items" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SpX-ON-sDm">
-                        <rect key="frame" x="17" y="342" width="69" height="20"/>
+                        <rect key="frame" x="26" y="243" width="69" height="20"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="20" id="RHW-pi-2G6"/>
                             <constraint firstAttribute="width" constant="69" id="kaJ-Zs-HRz"/>
@@ -97,28 +43,82 @@
                         <color key="textColor" red="0.49803921568627452" green="0.49803921568627452" blue="0.49803921568627452" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iQ6-sh-RLa">
+                        <rect key="frame" x="20" y="264" width="430" height="200"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="430" id="Yzk-NK-Afa"/>
+                            <constraint firstAttribute="height" constant="200" id="z80-CN-j0u"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kitchenware" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5HJ-io-dFw">
+                        <rect key="frame" x="26" y="472" width="180" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="VA4-AR-Tbx"/>
+                            <constraint firstAttribute="width" constant="180" id="yZS-yC-Em1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GeezaPro-Bold" family="Geeza Pro" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="645 Items" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BnL-H4-azO">
+                        <rect key="frame" x="26" y="494" width="69" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="69" id="VRd-fi-cae"/>
+                            <constraint firstAttribute="height" constant="20" id="iNj-wL-boL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="15"/>
+                        <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vPR-10-OFX">
+                        <rect key="frame" x="20" y="514" width="430" height="200"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="200" id="4ww-Ko-t8r"/>
+                            <constraint firstAttribute="width" constant="430" id="q7B-EA-25r"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reading Table" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kcy-P9-YZZ">
+                        <rect key="frame" x="26" y="714" width="180" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="180" id="aLU-Bw-BeH"/>
+                            <constraint firstAttribute="height" constant="24" id="dg3-dF-5aH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GeezaPro-Bold" family="Geeza Pro" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inventory" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kWM-ZJ-ZJs">
+                        <rect key="frame" x="26" y="734" width="69" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="69" id="Ln8-ez-SUX"/>
+                            <constraint firstAttribute="height" constant="20" id="bYA-Dm-S5D"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="15"/>
+                        <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
                 <constraints>
                     <constraint firstItem="vj2-ly-fGS" firstAttribute="top" secondItem="buH-8h-B44" secondAttribute="bottom" constant="1" id="32b-Kp-3Ki"/>
-                    <constraint firstItem="kWM-ZJ-ZJs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="17" id="3rR-Tk-lpL"/>
-                    <constraint firstItem="iQ6-sh-RLa" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="11" id="7ZQ-zu-BWr"/>
-                    <constraint firstItem="BnL-H4-azO" firstAttribute="top" secondItem="5HJ-io-dFw" secondAttribute="bottom" constant="2" id="BrM-nZ-A6G"/>
-                    <constraint firstItem="Kcy-P9-YZZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="17" id="D7G-sk-aba"/>
-                    <constraint firstItem="iQ6-sh-RLa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="382" id="KYK-5m-eFV"/>
-                    <constraint firstItem="buH-8h-B44" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="49" id="NUM-FG-7KT"/>
-                    <constraint firstItem="SpX-ON-sDm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-3" id="QPf-Ri-8XJ"/>
-                    <constraint firstAttribute="trailing" secondItem="iQ6-sh-RLa" secondAttribute="trailing" constant="13" id="TMr-dQ-tnT"/>
-                    <constraint firstItem="5HJ-io-dFw" firstAttribute="top" secondItem="iQ6-sh-RLa" secondAttribute="bottom" constant="1" id="WNT-Yh-9jQ"/>
-                    <constraint firstItem="vPR-10-OFX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="11" id="b7X-i7-Acf"/>
-                    <constraint firstItem="buH-8h-B44" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="11" id="foB-uF-IYz"/>
-                    <constraint firstAttribute="trailing" secondItem="buH-8h-B44" secondAttribute="trailing" constant="13" id="fyD-F8-bgP"/>
-                    <constraint firstItem="Kcy-P9-YZZ" firstAttribute="top" secondItem="vPR-10-OFX" secondAttribute="bottom" constant="1" id="hQZ-W9-34D"/>
-                    <constraint firstItem="vPR-10-OFX" firstAttribute="top" secondItem="BnL-H4-azO" secondAttribute="bottom" constant="24" id="hmb-XH-85m"/>
-                    <constraint firstItem="5HJ-io-dFw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="17" id="nhn-Zf-GJk"/>
-                    <constraint firstItem="BnL-H4-azO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="17" id="nvX-B1-bNH"/>
-                    <constraint firstItem="vj2-ly-fGS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="17" id="sZe-IX-8sE"/>
-                    <constraint firstItem="kWM-ZJ-ZJs" firstAttribute="top" secondItem="Kcy-P9-YZZ" secondAttribute="bottom" constant="2" id="t4A-bH-lCC"/>
-                    <constraint firstItem="SpX-ON-sDm" firstAttribute="top" secondItem="vj2-ly-fGS" secondAttribute="bottom" constant="2" id="t84-35-hTh"/>
+                    <constraint firstItem="kWM-ZJ-ZJs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="26" id="3rR-Tk-lpL"/>
+                    <constraint firstItem="iQ6-sh-RLa" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="7ZQ-zu-BWr"/>
+                    <constraint firstItem="BnL-H4-azO" firstAttribute="top" secondItem="5HJ-io-dFw" secondAttribute="bottom" constant="-2" id="BrM-nZ-A6G"/>
+                    <constraint firstItem="Kcy-P9-YZZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="26" id="D7G-sk-aba"/>
+                    <constraint firstItem="iQ6-sh-RLa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="264" id="KYK-5m-eFV"/>
+                    <constraint firstItem="buH-8h-B44" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="NUM-FG-7KT"/>
+                    <constraint firstItem="SpX-ON-sDm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="6" id="QPf-Ri-8XJ"/>
+                    <constraint firstAttribute="trailing" secondItem="iQ6-sh-RLa" secondAttribute="trailing" constant="22" id="TMr-dQ-tnT"/>
+                    <constraint firstItem="5HJ-io-dFw" firstAttribute="top" secondItem="iQ6-sh-RLa" secondAttribute="bottom" constant="8" id="WNT-Yh-9jQ"/>
+                    <constraint firstItem="vPR-10-OFX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="b7X-i7-Acf"/>
+                    <constraint firstItem="buH-8h-B44" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="foB-uF-IYz"/>
+                    <constraint firstAttribute="trailing" secondItem="buH-8h-B44" secondAttribute="trailing" constant="22" id="fyD-F8-bgP"/>
+                    <constraint firstItem="Kcy-P9-YZZ" firstAttribute="top" secondItem="vPR-10-OFX" secondAttribute="bottom" id="hQZ-W9-34D"/>
+                    <constraint firstItem="vPR-10-OFX" firstAttribute="top" secondItem="BnL-H4-azO" secondAttribute="bottom" id="hmb-XH-85m"/>
+                    <constraint firstItem="5HJ-io-dFw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="26" id="nhn-Zf-GJk"/>
+                    <constraint firstItem="BnL-H4-azO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="26" id="nvX-B1-bNH"/>
+                    <constraint firstItem="vj2-ly-fGS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="26" id="sZe-IX-8sE"/>
+                    <constraint firstItem="kWM-ZJ-ZJs" firstAttribute="top" secondItem="Kcy-P9-YZZ" secondAttribute="bottom" constant="-4" id="t4A-bH-lCC"/>
+                    <constraint firstItem="SpX-ON-sDm" firstAttribute="top" secondItem="vj2-ly-fGS" secondAttribute="bottom" constant="-2" id="t84-35-hTh"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
@@ -127,7 +127,7 @@
                 <outlet property="labelItem" destination="SpX-ON-sDm" id="SPf-iJ-K7j"/>
                 <outlet property="labelName" destination="vj2-ly-fGS" id="loT-DB-K9f"/>
             </connections>
-            <point key="canvasLocation" x="124.42748091603053" y="228.87323943661974"/>
+            <point key="canvasLocation" x="116.03053435114504" y="73.239436619718319"/>
         </tableViewCell>
     </objects>
 </document>

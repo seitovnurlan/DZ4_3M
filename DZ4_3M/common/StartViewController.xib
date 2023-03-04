@@ -32,7 +32,7 @@
                 <constraint firstItem="qla-ys-Udi" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="gH3-yO-3hd"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="qla-ys-Udi" secondAttribute="bottom" id="hgH-P5-Gwd"/>
             </constraints>
-            <point key="canvasLocation" x="140" y="20"/>
+            <point key="canvasLocation" x="139.69465648854961" y="19.718309859154932"/>
         </view>
     </objects>
     <resources>
