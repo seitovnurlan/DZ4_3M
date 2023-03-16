@@ -17,9 +17,9 @@ class SecondTableViewCell: UITableViewCell {
     
     @IBOutlet weak var labelItem: UILabel!
     
-    public func initUI(name: String, nameItem: String, imageName: String) {
-        labelName.text = name
-        labelItem.text = nameItem
+    public func initUI(type: String, count: Int, imageName: String) {
+        labelName.text = type
+        labelItem.text = String(count) + " Items"
         imageViewCell.image = UIImage(named: imageName)
     }
     
